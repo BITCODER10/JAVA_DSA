@@ -1,13 +1,21 @@
 package com.logicalnil;
 
+import java.util.Collection;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        System.out.println();
-        System.out.println();
-        System.out.println("This repository is created to practice Java Data Structures and Algorithm");
-        System.out.println("Switch to different branches to check each data structure program ");
-        System.out.println();
+        PriorityQueueObject<Integer> priorityQueueObject = new PriorityQueueObject<>();
+        for (int i=10 ; i>=0; i--){
+            priorityQueueObject.addEntry(i);
+        }
+        for (Integer i : priorityQueueObject.getpQueue()){
+            System.out.println(Integer.valueOf(i));
+        }
+
+        priorityQueueObject.printObject();
+
+        // output is [0, 1, 5, 4, 2, 9, 6, 10, 7, 8, 3] because its min heap
     }
 }
