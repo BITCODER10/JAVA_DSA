@@ -7,7 +7,7 @@ public class Main {
         System.out.println();
         System.out.println();
         System.out.println("This repository is created to practice Java Data Structures and Algorithm");
-        System.out.println();
+        System.out.println("Switch to different branches to check each data structure program ");
         System.out.println();
     }
 }
