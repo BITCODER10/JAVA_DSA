@@ -19,7 +19,6 @@ public class Main {
         classFive.removeRecentEntry();
         classFive.checkIfEntryStarted();
         classFive.checkTopEntry();
-        System.out.println("Class Five is "+classFive);
         scanner.close();
     }
 
