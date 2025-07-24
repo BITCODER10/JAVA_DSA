@@ -14,7 +14,7 @@ public class Main {
             System.out.println(Integer.valueOf(i));
         }
 
-        priorityQueueObject.printObject();
+        priorityQueueObject.popObject();
 
         // output is [0, 1, 5, 4, 2, 9, 6, 10, 7, 8, 3] because its min heap
     }

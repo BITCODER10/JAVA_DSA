@@ -13,11 +13,15 @@ public class PriorityQueueObject<E> {
     void addEntry(E e){
         pQueue.offer(e);
     }
-    void printObject(){
-        System.out.println(pQueue);
+    void popObject(){
+        while (!pQueue.isEmpty()){
+            System.out.println("Popping out : "+pQueue.poll());
+        }
     }
 
     public Queue<E> getpQueue() {
         return pQueue;
     }
+
+
 }
