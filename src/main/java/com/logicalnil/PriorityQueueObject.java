@@ -1,11 +1,12 @@
 package com.logicalnil;
 
 import java.util.Collection;
+import java.util.Collections;
 import java.util.PriorityQueue;
 import java.util.Queue;
 
 public class PriorityQueueObject<E> {
-    private final Queue<E> pQueue = new PriorityQueue<>();
+    private final Queue<E> pQueue = new PriorityQueue<>(Collections.reverseOrder());
     PriorityQueueObject(){
 
     }
