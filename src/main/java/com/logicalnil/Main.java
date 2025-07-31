@@ -5,9 +5,5 @@ package com.logicalnil;
 public class Main {
     public static void main(String[] args) {
         System.out.println();
-        System.out.println();
-        System.out.println("This repository is created to practice Java Data Structures and Algorithm");
-        System.out.println("Switch to different branches to check each data structure program ");
-        System.out.println();
     }
 }
