@@ -22,5 +22,6 @@ public class Main {
         BubbleSortClass bubbleSortObject = new BubbleSortClass(array);
         System.out.println("\nSorted Array is : "+Arrays.toString(bubbleSortObject.sortArraylogic()));
         scanner.close();
+
     }
 }
